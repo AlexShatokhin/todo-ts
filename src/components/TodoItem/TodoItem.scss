@@ -1,0 +1,24 @@
+.todo-item{
+    display: flex;
+    border: 1px solid #00000039;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    &-is_completed{
+        width: 70px;
+        margin-right: 20px;
+        border-right: 1px solid #00000039;
+    }
+    &-title{
+        width: 500px;
+        text-align: left;
+        border-right: 1px solid #00000039;
+        margin-right: 20px;
+
+    }
+    &-priority{
+        text-align: center;
+        width: 250px;
+    }
+}
