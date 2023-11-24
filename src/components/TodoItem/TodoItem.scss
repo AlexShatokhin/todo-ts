@@ -21,4 +21,15 @@
         text-align: center;
         width: 250px;
     }
+    &-delete{
+        width: 50px;
+        svg{
+            color: #7d7dff;
+            cursor: pointer;
+            transition: .3s all;
+            &:hover{
+                color: #A00000;
+            }
+        }
+    }
 }
