@@ -1,20 +1,14 @@
-
+import { FC } from "react";
 import {useSelector} from "react-redux"
+import { Deal } from "../../interfaces/interfaces";
 
 import TodoItem from "../TodoItem/TodoItem";
 
 import "./ItemsList.scss"
 
-interface Deal {
-    id: string,
-    title: string,
-    priority: string,
-    isComplete: boolean
-}
+const ItemsList:FC = () => {
 
-const ItemsList = () => {
-
-    const deals = useSelector((state: {items: Deal[]}) => state.items); 
+    const deals = useSelector((state: {filterItems: Deal[]}) => state.filterItems); 
 
     function renderDeals(){
         return deals.map((deal: Deal) => {

@@ -1,3 +1,4 @@
+import { FC } from "react"
 import {useDispatch, useSelector} from "react-redux"
 import { toggleAddForm } from "../../../actions/actions"
 
@@ -6,7 +7,7 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons"
 
 
 import "../Form.scss"
-const AddItemForm = () => {
+const AddItemForm:FC = () => {
 
     const dispatch = useDispatch();
     const isShowAddForm = useSelector((state: {isShowAddForm: Boolean}) => state.isShowAddForm)

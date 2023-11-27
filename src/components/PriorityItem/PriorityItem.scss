@@ -1,0 +1,31 @@
+.priority-item{
+    border: 2px solid #000000;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.high{
+    border-color: #950000;
+    background-color: #80000017;
+    color: #950000;
+}
+
+.medium{
+    border-color: #956d00;
+    background-color: #805e0017;
+    color: #956d00;
+}
+
+.low{
+    border-color: #009525;
+    background-color: #00801c17;
+    color: #009519;    
+}
+
+.none{
+    border-color: #a6a6a6;
+    background-color: #84848417;
+    color: #929392;  
+}
