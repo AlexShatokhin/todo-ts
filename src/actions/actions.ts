@@ -23,7 +23,7 @@ export const editDeal = (item: Deal) => ({
     payload: item
 })
 
-export const filterDeal = (filter: {name: string, priority: string}) => ({
+export const filterDeal = (filter: {name: string, priority: string, isComplete: "" | boolean}) => ({
     type: "FITLER_DEAL",
     payload: filter
 })

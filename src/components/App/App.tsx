@@ -1,5 +1,5 @@
 import { FC } from 'react';
-
+import { useDrag } from 'react-dnd';
 import ItemsList from '../ItemsList/ItemsList';
 import AddItemForm from '../forms/AddItemForm/AddItemForm';
 import ToggleFilterForm from '../forms/FilterForm/ToggleFilterForm';
@@ -9,17 +9,20 @@ import Form from '../forms/AddItemForm/AddForm';
 import './App.scss';
 const App:FC = () => {
 
+
   return (
 	<div className="App">
 
-		<div className="btns">
-			<ToggleFilterForm />
-			<AddItemForm />
-			<Form />
-			<FilterForm />
-		</div>
+		<div className="todo">
+			<div className="btns">
+				<ToggleFilterForm />
+				<AddItemForm />
+				<Form />
+				<FilterForm />
+			</div>
 
-		<ItemsList />
+			<ItemsList />		
+		</div>
 
 	</div>
   );

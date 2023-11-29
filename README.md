@@ -1,5 +1,6 @@
 Ближайшие задачи: (https://www.youtube.com/watch?v=92qcfeWxtnY&t=961s&ab_channel=UlbiTV)
 --- технология фильтрации (?)
+--- ПОФИКСИТЬ БАГ С ЧЕКБОКСОМ
 
 # Getting Started with Create React App
 

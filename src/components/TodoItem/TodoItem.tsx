@@ -19,7 +19,7 @@ const TodoItem:FC<Deal> = ({id, title, priority, isComplete}) => {
     }, [checked])
 
     return (
-        <div className="todo-item">
+        <div key = {id} className="todo-item">
             <div className="todo-item-is_completed">
                 <input type="checkbox" name="complete" id="complete" checked = {checked} onChange={() => setChecked(!checked)} />
             </div>
